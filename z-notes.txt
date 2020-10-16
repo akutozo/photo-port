@@ -2,18 +2,23 @@
 
 1) package.json
 
-The react package defines new React components. React isn't confined to the browser.
+The react package defines new React components. React isn't 
+confined to the browser.
 
-The react-dom package serves as the entry point to the DOM to render the JSX by using the virtual DOM.
+The react-dom package serves as the entry point to the DOM 
+to render the JSX by using the virtual DOM.
 
 2) index.js
 
-You can think of the index.js file as the main entry point for the application.
-The ReactDOM library is rendering the App component at the root element in the HTML.
+You can think of the index.js file as the main entry point 
+for the application.
+The ReactDOM library is rendering the App component at the 
+root element in the HTML.
 
 3) index.HTML
 
-The ReactDOM library is rendering the App component at the root element in the HTML.
+The ReactDOM library is rendering the App component at the
+ root element in the HTML.
 
 
 
