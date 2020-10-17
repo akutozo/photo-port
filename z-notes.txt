@@ -21,6 +21,17 @@ The ReactDOM library is rendering the App component at the
  root element in the HTML.
 
 
+1) 20.1.5
 
+React
+
+React components follow the PascalCase naming convention.
+
+You need to import React in every component file. You can 
+also import any images or CSS you want to use at the top.
+
+JSX can represent HTML in JavaScript. In fact, the way 
+React uses JSX behind the scenes is very similar to 
+document.createElement().
 
 
