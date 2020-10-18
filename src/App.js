@@ -1,4 +1,6 @@
+  
 import React, { useState } from 'react';
+// import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
@@ -23,22 +25,22 @@ function App() {
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+  categories={categories}
+  setCurrentCategory={setCurrentCategory}
+  currentCategory={currentCategory}
+  contactSelected={contactSelected}
+  setContactSelected={setContactSelected}
+></Nav>
       <main>
         <div>
-          {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-          </>
-          ) : (
-              <ContactForm></ContactForm>
-            )}
+        {!contactSelected ? (
+  <>
+    <Gallery currentCategory={currentCategory}></Gallery>
+    <About></About>
+  </>
+) : (
+    <ContactForm></ContactForm>
+  )}
         </div>
       </main>
     </div>
